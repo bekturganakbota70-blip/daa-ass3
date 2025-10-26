@@ -3,12 +3,19 @@
 # Minimum Spanning Tree Algorithms
 
 ## Project Overview
-Implementation of Prim's and Kruskal's algorithms for optimizing city transportation networks. This project finds the minimum set of roads connecting all city districts with the lowest construction cost.
+Implementation of Prim's and Kruskal's algorithms for optimizing city transportation networks.
 
 ## Features
-- **Prim's Algorithm** with priority queue optimization
-- **Kruskal's Algorithm** with Union-Find data structure
-- **Graph data structure** with custom Edge and Graph classes
-- **JSON input/output** for graph data
-- **Comprehensive testing** with JUnit
+- Prim's Algorithm with priority queue
+- Kruskal's Algorithm with Union-Find
+- JSON input/output support
+- Comprehensive testing with JUnit
+
+## Usage
+1. Run MSTApplication.java
+2. Check output.json for results
+
+## Technologies
+- Java 11, Maven, JUnit 5
 - **Performance analysis** with operation counting and timing
+
